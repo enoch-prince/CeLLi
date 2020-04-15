@@ -9,7 +9,7 @@ A C++ image processing application based on the CImg library built for Windows P
 
  -  Search for "x64 Native Tools Command Prompt for VS 2019" from the Windows Start Menu. A command prompt instance will open. Navigate to the project CeLLi directory.
 
-Run:
+**Run:**
  
 ```bash
 compile.bat
@@ -19,16 +19,17 @@ compile.bat
 
 The program uses command line arguments to process different images other than the one specified directly inside the source code.
 
-usage: 
+**Usage:** 
 
 ```bash
 .\CeLLi.exe -i fullPath\imageName.jpg -visu true
 ```
 
 > The arguments:
+>
 >	**-i**  => specifies the full path to the image.
->	**-visu** => enables visualization (to display whatever is happening on the screen). 
-> 		 Can be set to true or false.
+>
+>	**-visu** => enables visualization (to display whatever is happening on the screen). Can be set to true or false.
 
 
 **Note:** When in Visualization mode you can press "C" on the keyboard to save the final Image
